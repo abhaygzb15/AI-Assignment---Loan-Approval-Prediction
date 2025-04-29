@@ -23,32 +23,47 @@ The dataset is sourced from Kaggle:
 It contains 614 entries with 13 columns, including:
 
 Applicant demographics
+
 Income details
+
 Loan amount and term
+
 Credit history
+
 Loan approval status (target variable)
 
 ## 🔍 Key Steps
 
 Data Cleaning
 Handled missing values using mode and median.
+
 Removed irrelevant columns like Loan_ID.
+
 Exploratory Data Analysis (EDA)
+
 Univariate and bivariate visualizations.
+
 Outlier detection using IQR method.
+
 Feature Engineering
+
 Label Encoding for categorical features.
+
 StandardScaler for numerical features.
 
 
 Model Building
+
 Logistic Regression ✅
+
 Random Forest Classifier
+
 Support Vector Classifier (SVC)
 
 
 Model Evaluation
 Logistic Regression achieved highest accuracy: 86%
+
 ROC-AUC score: 0.78
 
 Hyperparameter Tuning
@@ -57,10 +72,11 @@ Used GridSearchCV to optimize Logistic Regression model.
 ## 📈 Results
 
 Best Model: Logistic Regression
+
 Test Accuracy: 86%
+
 AUC Score: 0.78
 
-The model shows strong predictive performance and generalizes well.
+## 🏁 Conclusion
 
-🏁 Conclusion
 This project demonstrates the effective application of machine learning for binary classification problems in the financial domain. The final model can help banks automate their loan approval process, improving both speed and reliability.
